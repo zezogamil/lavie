@@ -16,5 +16,15 @@ Welcome to **LaVie**, a premier destination for high-quality skincare products d
 - **JavaScript**: Adding interactivity and dynamic features.
 
 ## 📂 Project Structure
+LaVie/
+├── index.html          # Main homepage
+├── aboutus.html        # About Us page
+├── home.css            # Styles for the homepage
+├── aboutus.css         # Styles for the About Us page
+├── home.js             # JavaScript for homepage interactions
+├── aboutus.js          # JavaScript for the About Us page
+├── assets/             # Folder for images, videos, and other assets
+└── README.md           # Documentation (this file)
+## 🎥 Website Demo
 
-
+[![Watch the Video](assets/thumbnail.png)](assets/demo.mp4)
