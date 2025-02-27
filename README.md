@@ -28,4 +28,4 @@ LaVie/
 
 ## 🎥 Website Demo
 
-![LaVie Demo](assets/lavie-demo.gif)
+![LaVie Demo](assets/lavie-demoo.gif)
