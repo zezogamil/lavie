@@ -27,4 +27,4 @@ LaVie/
 └── README.md           # Documentation (this file)
 ## 🎥 Website Demo
 
-(assets/demo.mp4)
+(assets/lavie-demo.mp4)
