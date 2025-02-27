@@ -28,4 +28,5 @@ LaVie/
 
 ## 🎥 Website Demo
 
-![LaVie Demo] (https://github.com/zezogamil/lavie/blob/main/assests/lavie-demoo.gif)
+![LaVie Demo](https://raw.githubusercontent.com/zezogamil/lavie/main/assets/lavie-demoo.gif)
+
