@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Vie</title>
+    <link rel="stylesheet" href="home.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+            <a href="#" class="nav_logo">Logo</a>
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰ 
+            </div>
+        <ul style="list-style: none;
+             display: flex;
+             justify-content: center;
+             flex-grow: 1;
+             padding: 0;
+             gap: 150px;" class="nav_links">
+            <li><a href="#discover">Discover</a></li>
+            <li><a href="#Bestsellers">Bestsellers</a></li>
+            <li><a href="#newcollection">New Collection</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <div class="hero-section">
+            <h3 class="brandname">La vie</h3>
+            <h1 class="headtitle">Beauty Products</h1>
+            <p class="headdescription">"Effortless elegance, delivered to your door. Shop our collection online and discover the perfect blend of luxury and convenience"
+            </p>
+        </div>
+
+        <article>
+            <h1 class="pointer">Shop our latest collection online now!</h1>
+            <a href="#" class="button">View Collection</a>
+        </article>
+    </main>
+    <section class="discover-section" id="discover">
+        <div class="left-column">
+            <div class="left-box">
+                <h2 class="left-descover-title">Why our Products</h2>
+                <p class="descover-graph">Glow naturally with our skin-loving formula! 🌿✨ Made with safe, non-toxic ingredients, our product hydrates, nourishes, and protects—all while being lightweight and non-greasy. Perfect for all skin types, it brightens, fights aging, and shields against UV damage. Plus, it’s cruelty-free and eco-friendly! Give your skin the care it deserves. 💖 #HealthyGlow #SkincareThatCares
+                </p>
+                <h1 class="safe-skin">
+                     <a>
+                        <img src="./assests/safe-skin-white.png" alt="Icon" width="30">
+                    </a>
+                    Safe & Skin-Friendly ingredients
+                    <h4 class="feature-one">Free from chemicals</h4>
+                    <h4 class="feature-two">Hypoallergenic and dermatologically tested</h4>
+                </h1>
+                <h1 class="Hydration">
+                    <a>
+                        <img src="./assests/vitaminsWhite.png" alt="Icon" width="30">
+                    </a>
+                    Hydration & Nourishment
+                    <h4 class="feature-one">Contains moisturizing agents like hyaluronic acid, glycerin, or aloe vera </h4>
+                    <h4 class="feature-two">Includes vitamins (e.g., Vitamin C for brightening, Vitamin E for repair)</h4>
+                </h1>
+                <h1 class="skin-types">
+                    <a>
+                        <img src="./assests/skin-types-white.png" alt="Icon" width="30">
+                    </a>
+                    Suitable for Different Skin Types
+                    <h4 class="feature-one">Designed for oily, dry, combination, or sensitive skin</h4>
+                </h1>
+                <h1 class="doctors-recommended">
+                    <a>
+                        <img src="./assests/doctorsWhite.png" alt="Icon" width="30">
+                    </a>
+                    Reviewed and Recommended By doctors
+                </h1>
+                <button class="shop-now">SHOP NOW</button>
+            </div>
+        </div>
+        <div class="right-column">
+            <img src="./assests/modelFaceSix.jpg" alt="ourclients">
+        </div>
+    </section>
+    <section class="Bestsellers-section" id="Bestsellers">
+        <div class="upper-part">
+            <h1 class="">Bestsellers</h1>
+        </div>
+        <div class="lower-part">
+            <div class="Bestsellers-product-one">
+                <img src="./assests/productOne.jpg" alt="productOne">
+                <h3 class="productOne-title">productOne-title</h3>
+                <p class="productOne-paragraph">very small idea about the product, to introduce it the clients</p>
+                <button class="order-now">Order Now</button>
+            </div>
+            <div class="Bestsellers-product-one">
+                <img src="./assests/productOne.jpg" alt="productOne">
+                <h3 class="productOne-title">productOne-title</h3>
+                <p class="productOne-paragraph">very small idea about the product, to introduce it the clients</p>
+                <button class="order-now">Order Now</button>
+            </div>
+            <div class="Bestsellers-product-one">
+                <img src="./assests/productOne.jpg" alt="productOne">
+                <h3 class="productOne-title">productOne-title</h3>
+                <p class="productOne-paragraph">very small idea about the product, to introduce it the clients</p>
+                <button class="order-now">Order Now</button>
+            </div>
+        </div>
+    </section>
+    <section class="new-collection" id="newcollection">
+        <div class="collection-show">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="./assests/allproductsONE.jpg" alt="image 1">
+                        <div class="text-one">
+                            <h1>The all-day-collection</h1>
+                            <p> Discover our collection designed for your daily skincare routine. This high-quality range includes a morning cleanser, sunscreen, moisturizer, and a nighttime cleanser to keep your skin healthy and glowing.
+                            </p>
+                            <button class="MoreAboutTheCollection"> Learn more</button>
+                            <button class="OrderTheCollection"> Order Now</button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assests/modelFaceFiveONE.jpg" alt="image 2">
+                        <div class="text-two">
+                            <h1>The brightening collection</h1>
+                            <p> Discover our collection designed to care for your skin. Our products are formulated for oily, dry, and sensitive skin, using advanced technology with Vitamin C and E to give you a radiant glow.
+                            </p>
+                            <button class="MoreAboutTheCollection"> Learn more</button>
+                            <button class="OrderTheCollection"> Order Now</button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="./assests/allmodelsone.jpg" alt="image 3">
+                        <div class="text-three">
+                            <h1>Cleaners & treatment cream collection</h1>
+                            <p> Discover our collection designed to care for your skin. This set includes a daily cleanser and a treatment cream to help heal skin issues. Perfectly formulated for all skin types.
+                            </p>
+                            <button class="MoreAboutTheCollection"> Learn more</button>
+                            <button class="OrderTheCollection"> Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="arrow arrow-left">&#10094;</button>
+                <button class="arrow arrow-right">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 La vie e-commerce Ltd</p>
+        
+        <div class="footer-container">
+            <div class="socialmedialinks">
+                <h3>Our social media</h3>
+                <div class="icons">
+                    <a href="https://x.com/home" target="_blank">
+                        <img src="./assests/twitterIcon.png" alt="Twitter Icon" width="30">
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank"> 
+                        <img src="./assests/facebookIcon.png" alt="Facebook Icon" width="30">
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank">  
+                        <img src="./assests/youtubeIcon.png" alt="YouTube Icon" width="30">
+                    </a>
+                    <a href="https://www.linkedin.com/in/abdelazizgamil/" target="_blank"> 
+                        <img src="./assests/linkedinIcon.png" alt="LinkedIn Icon" width="30">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./assests/instgramIcon.png" alt="Instagram Icon" width="30">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="importantlinks">
+                <h3>Important Links</h3>
+                <a href="#" target="_blank">Find us</a>
+                <a href="aboutus.html" target="_blank">About us</a>
+                <a href="#" target="_blank">Contact us</a>
+                <a href="#" target="_blank">Privacy Policy</a>
+                <a href="#" target="_blank">Refund policy</a>  
+                <a href="#" target="_blank">Terms and Conditions</a>
+            </div>
+            <div class="knowUsMore">
+                <h3>help section</h3>
+                <a href="#" target="_blank"> Help Center</a>
+                <h4 style=" border-bottom: 2px solid white;">Get our offers</h1>
+                <input class="Newsletter">
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js" defer></script> 
+</body>
+</html>

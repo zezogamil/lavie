@@ -1,0 +1,411 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: max-content;
+    background-color: #a4786459;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.navbar {
+    width: 250px; 
+    height: 110vh;
+    background: #020202;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    left: -230px;
+    top: 0; 
+    overflow-y: auto;
+    border-right: 3px solid #5f3600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: left 0.4s ease-in-out;
+}
+
+.navbar.active {
+    left: 0;
+}
+
+
+
+.menu-btn {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    background: #A47864;
+    color: white;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    z-index: 1000; 
+}
+
+.menu-btn:hover {
+    background: #875b48;
+}
+
+.navbar h2 {
+    font-size: 1.8em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;  
+}
+
+.navbar ul li {
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    color: #A47864;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.companyImg {
+    width: 100%;
+    height: 50%;    
+    top: -20px;
+    object-fit: cover;
+}
+.content h1 {
+    justify-content: center;
+    text-align: center;
+    transform: translateX(30%);
+    font-size: 3em;
+    font-family:  'Campton', Arial, sans-serif;
+    font-weight: bold;
+    color: #875b48;
+    letter-spacing: 1px;
+}
+.product-title{
+    color: #875b48;
+}
+.about-overview-p {
+    position: relative;
+    top: calc(100% + 10px); 
+    justify-content: center;
+    text-align: center;
+    left: 50%;
+    font-weight: bold;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 80%; 
+    font-family:  'Campton', Arial, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 100px;
+}
+.about-product-p{
+    position: relative;
+    top: calc(100% + 10px); 
+    justify-content: center;
+    text-align: center;
+    left: 50%;
+    font-weight: bold;
+    transform: translateX(-40%);
+    text-align: center;
+    width: 80%; 
+    font-family:  'Campton', Arial, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 100px;
+}
+.productoverviewImg {
+    width: 100%;
+    height: 50%;
+    margin-top: -10cm;    
+    object-fit: cover;
+}
+
+.main-section-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.process {
+    position: absolute; /* Ensure it's placed over the image */
+    top: 0;
+    left: 0;
+    width: 100%;  /* Keep it within the container */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+
+#mission img {
+    width: 154%;
+    height: 100%;
+    margin-left: 45px;
+    max-height: 500px;
+    object-fit: cover;
+    box-shadow: 0 0 900px 10px #6d422efb;
+}
+.overlay-content {
+    transform: translateX(600px);
+    margin-top: -10.5cm;
+    margin-bottom: 4cm;
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #02020241;
+    color: white;
+    z-index: 2;
+    width: 80%;
+    max-width: 600px;
+
+}
+
+
+.section-title {
+    font-size: 3.5em;
+    margin: 0;
+    font-family:  'Campton', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.overlay-content p {
+    font-size: 1.5em;
+    font-family:  'Campton', Arial, sans-serif; 
+    letter-spacing: 2px;
+}
+.process-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.number {
+    font-size: 200px;
+    font-weight: bolder;
+    transform: translateX(1.8em);
+    background-size: cover;
+    background-position: center;
+    -webkit-text-stroke: 1px #02020275;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 240px; /* Ensures proper background positioning */
+    height: 200px;
+    text-align: center;
+}
+
+.step-content {
+    flex: 1;
+    transform: translateX(40%);
+    text-align: center;
+    font-family:  'Campton', Arial, sans-serif; 
+    padding-left: 20px;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+#step-content p {
+    font-family:  'Campton', Arial, sans-serif; 
+    font-size: 1.2em;
+}
+
+.num-01 { background-image: url('./assests/modelFaceOne.jpg'); }
+.num-02 { background-image: url('./assests/laboratory.jpg'); }
+.num-03 { background-image: url('./assests/natureproduct.jpg'); }
+.num-04 { background-image: url('./assests/spreed.jpg'); }
+
+
+.teaminformation-title {
+    font-family: 'Campton', Arial, sans-serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.teaminformation {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 20px;
+    text-align: center;
+}
+ 
+
+.team-member {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin-left: 100%;
+}
+
+/* Team Member Image (Full Size) */
+.team-member img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+
+/* Overlay (Hidden by Default) */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    backdrop-filter: blur(8px); /* Blur effect */
+    color: white;
+    display: flex;
+    font-family:  'Campton', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially Hidden */
+    transition: opacity 0.5s ease-in-out;
+    padding: 20px;
+}
+
+/* Hover Effect: Blur & Show Resume */
+.team-member:hover img {
+    filter: blur(5px);
+    transform: scale(1.1);
+}
+
+.team-member:hover .overlay {
+    opacity: 1;
+}
+
+/* LinkedIn Icon */
+.overlay a img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.overlay a img:hover {
+    transform: scale(1.2);
+}
+.team-member:hover .overlay a img {
+    filter: none;
+}
+.linkedin-icon {
+    position: absolute;
+    left: 40%;
+    width: 40px;
+    height: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.2);
+}
+
+.careerssection {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+}
+    
+.carreertitle {
+    grid-column: span 5 / span 5;
+    grid-row: span 2 / span 2;
+}
+.career-cover {
+    width: 158%;
+    height: 40%;  
+    margin-top: 1cm;
+    object-fit: cover;
+}
+
+.offer-box {
+    background-color: #A47864; /* Brownish color */
+    padding: 50px 50px;
+    border-radius: 10px;
+    color: white; /* Adjust text color for contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+}
+
+.sales-offers,
+.it-offers,
+.marketing-offers,
+.hr-offers,
+.advertising-offers {
+    grid-row: span 3 / span 3;
+    grid-row-start: 3;
+    margin-right: 5cm;
+}
+
+/* Make sure the container uses CSS Grid */
+.career-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Two columns layout */
+    justify-content: center;
+    margin-right: -20%;
+    padding: 20px;
+    margin-top: -30cm;
+    margin-right: -20cm;
+}
