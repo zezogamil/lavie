@@ -27,8 +27,8 @@ LaVie/
 └── README.md           # Documentation (this file)
 
 ## 🎥 Website Demo
+
 ![lavie-demoo (1)](https://github.com/user-attachments/assets/b4f53986-9104-41e4-a722-77ee2640f37d)
 
-![LaVie Demo](https://raw.githubusercontent.com/zezogamil/lavie/main/assets/lavie-demoo.gif)
 
 
