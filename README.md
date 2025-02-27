@@ -25,6 +25,7 @@ LaVie/
 ├── aboutus.js          # JavaScript for the About Us page
 ├── assets/             # Folder for images, videos, and other assets
 └── README.md           # Documentation (this file)
+
 ## 🎥 Website Demo
 
-(assets/lavie-demo.mp4)
+![LaVie Demo](assets/lavie-demo.gif)
