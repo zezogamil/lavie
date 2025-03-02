@@ -376,11 +376,6 @@ p {
     margin-top: 1cm;
     object-fit: cover;
 }
-/* .careerssection {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
 
 
 .offer-box {
@@ -393,10 +388,45 @@ p {
     text-align: center;
     background: #A47864;
     margin-left: 370px; 
+    transition: background 0.3s ease;
 }
-.offer-box a {
+.offer-box img {
+
+    border-radius: 50%;
+    transition: opacity 0.3s ease;
+}
+
+.offer-box h3 {
+    position: absolute;
     color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+    transform: translate(2cm, 3cm);
     
 }
 
+.offer-box p {
+    position: absolute;
+    color: #00FF00; /* Green color */
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    transform: translate(2cm, 3cm);
+}
+
+/* Hover Effect */
+.offer-box:hover {
+    background: black;
+}
+
+.offer-box:hover img,
+.offer-box:hover h3 {
+    opacity: 0;
+}
+
+.offer-box:hover p {
+    opacity: 1;
+}
 
